@@ -1,0 +1,61 @@
+<html>
+   
+   <head>
+      <title>AngularJS</title>
+   </head>
+   
+   <body>
+      <h1>Programming Activity # 1</h1>
+      
+      <div ng-app = "">
+         <p>Enter your Name: <input type = "text" ng-model = "name"></p>
+         <p>Your name is: <span ng-bind = "name"></span>!</p>
+      </div>
+      
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+      </script>
+
+
+ <div ng-app = "">
+         <p>Enter your Address: <input type = "text" ng-model = "name"></p>
+         <p>Your Address is: Marilao Bulacan <span ng-bind = "name"></span>!</p>
+      </div>
+      
+      
+       <div ng-app = "">
+         <p>Enter your SHS High School: <input type = "text" ng-model = "name"></p>
+         <p>Your SHS High School: COSGA High School <span ng-bind = "name"></span>!</p>
+      </div>
+      
+      
+      <div ng-app = "">
+         <p>Enter your Course: <input type = "text" ng-model = "name"></p>
+         <p>Your Course is: BS Information Technology <span ng-bind = "name"></span>!</p>
+      </div>
+      
+      
+      <div ng-app = "" ng-init = "pizzas = [{pizza = name:'flavor';]"> 
+         
+         <p>List of Pizzas:</p>
+      
+         <ol>
+               
+               <li> Pizza = Dominos Pizza, Flavor: Pepperoni Feast; </li>
+               <li> Pizza = Pizza Hut, Flavor: BBQ Bacon; </li>
+               <li> Pizza = Greenwich, Flavor: Cheese Classic; </li>
+               <li> Pizza = Shakeys, Flavor: Hawaiian; </li>
+               <li> Pizza = Yellow Cab, Flavor: Patty Melt; </li>
+               <li> Pizza = Angels Pizza, Flavor: AllMeat; </li>
+               <li> Pizza = Pizza Delite, Flavor: Beefy Mushroom;</li>
+               <li> Pizza = Sbarro Pizza, Flavor: Ham Pineapple;</li>
+               <li> Pizza = Calda Pizza, Flavor: Cheese Sausage;</li>
+               <li> Pizza = Lotsa Pizza, Flavor: Viggie Supreme; </li>
+               
+                
+               
+            </li>
+         </ol>
+      </div>
+      
+    </body>
+</html>
