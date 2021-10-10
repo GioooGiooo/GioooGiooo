@@ -103,10 +103,10 @@
          
          mainApp.controller('studentController', function($scope) {
             $scope.student = {
-               fullName: "Mahesh",
-               course: "Parashar",
+               fullName: "Gio S.Bea",
+               course: "BSIT",
                year level: "4th Year"
-               school: "Kalayaan National High School"
+               school: "Informatics College"
                fees:500,
                
             
